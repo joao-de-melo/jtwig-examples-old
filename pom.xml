@@ -10,11 +10,12 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <jtwig.version>2.1.5</jtwig.version>
+        <jtwig.version>3.0.0</jtwig.version>
     </properties>
 
     <modules>
         <module>jtwig-simpleapp-with-inheritance</module>
+        <module>jtwig-spring-boot</module>
         <module>simple-app</module>
         <module>simple-webapp</module>
     </modules>

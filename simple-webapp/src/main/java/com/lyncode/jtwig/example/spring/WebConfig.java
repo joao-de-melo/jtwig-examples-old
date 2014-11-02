@@ -17,14 +17,14 @@ package com.lyncode.jtwig.example.spring;
 import com.lyncode.jtwig.example.controller.IndexController;
 import com.lyncode.jtwig.mvc.JtwigViewResolver;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Import;
 import org.springframework.web.servlet.ViewResolver;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 @EnableWebMvc
-@ComponentScan(basePackageClasses = IndexController.class)
+@Import({IndexController.class})
 @Configuration
 public class WebConfig extends WebMvcConfigurerAdapter {
 

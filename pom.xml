@@ -18,6 +18,7 @@
         <module>jtwig-spring-boot</module>
         <module>simple-app</module>
         <module>simple-webapp</module>
+        <module>simpleapp-jtwig-4.x</module>
     </modules>
 
     <repositories>
